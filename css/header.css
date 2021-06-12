@@ -1,0 +1,80 @@
+#header{
+  min-height: 50px;
+}
+
+.menu{
+  background: #231F20;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.menu form{
+  margin: 12px 0;
+}
+
+.menu form .form-group{
+  position:relative;
+}
+
+.menu form .form-group i.icon{
+  position: absolute;
+  left: 15px;
+  top: 5px;
+  color: #fff;
+}
+
+.menu form .form-group input.form-control{
+  background: rgba(255,255,255, 0.2);
+  border: 0;
+  box-shadow: none;
+  min-width: 235px;
+  color: #fff;
+  height: 26px;
+  border-radius: 13px;
+  font-size: 12px;
+  padding-left: 30px;
+}
+
+.menu ul.main-menu li.dropdown a{
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.menu ul.main-menu li.dropdown a:hover, .menu ul.main-menu li.dropdown a:active, .menu ul.main-menu li.dropdown a:focus{
+  color: #27aae1;
+  background: none;
+}
+
+.menu ul.main-menu li.open a, .menu ul.main-menu li.open a:active, .menu ul.main-menu li.open a:focus{
+  background: transparent;
+  color: #27aae1;
+}
+
+.menu ul.main-menu li ul.dropdown-menu{
+  background: #231F20;
+  box-shadow: none;
+  border: 0;
+  padding: 0;
+}
+
+.menu ul.main-menu li ul.dropdown-menu li{
+  list-style: none;
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(255,255,255, 0.1)
+}
+
+.menu ul.main-menu li ul.dropdown-menu li a, .menu ul.main-menu li.open ul.dropdown-menu li a{
+  color: #fff;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.menu ul.main-menu li ul.dropdown-menu li a:hover, .menu ul.main-menu li.open ul.dropdown-menu li a:hover{
+  color: #e6e6e6;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  border: 0;
+}
